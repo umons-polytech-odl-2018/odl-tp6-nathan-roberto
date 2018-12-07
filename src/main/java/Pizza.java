@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 
-public class Pizza implements nourriture {
+public abstract class Pizza implements nourriture {
     private float price;
     private String name;
     private ArrayList<Ingrédient> Recette;
@@ -9,6 +9,8 @@ public class Pizza implements nourriture {
     public Pizza(String name){
         this.name = name;
         Recette = new ArrayList<>();
+        Recette.add(new Base());
+        Recette.add(new Fromage());
     }
 
     public void addIngrédient(Ingrédient ingrédient){
