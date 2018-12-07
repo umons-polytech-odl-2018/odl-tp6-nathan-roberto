@@ -16,7 +16,7 @@ public class PizzaHut implements Pizzeria{
         }
 
         @Override
-        public PizzaHut createPizzeria(){
+        public static PizzaHut createPizzeria(){
             if (Singleton == null){
                 new PizzaHut();
             }

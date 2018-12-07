@@ -4,8 +4,12 @@ public class EnService extends State{
     }
 
     @Override
-    public String createNewPizza() {
-        return "";
-    }
+    public String createNewPizza(String Name) {
+        switch (name){
+            case "Margaritha":
+                return new Margaritha
+        }
+
+ }
 
 }

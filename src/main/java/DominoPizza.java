@@ -17,7 +17,7 @@ public class DominoPizza implements Pizzeria{
     }
 
     @Override
-    public DominoPizza createPizzeria(){
+    public static DominoPizza createPizzeria(){
         if (Singleton == null){
             new DominoPizza();
         }
