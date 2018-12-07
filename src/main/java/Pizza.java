@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public abstract class Pizza implements nourriture {
     private float price;
     private String name;
-    private ArrayList<Ingrédient> Recette;
+    protected ArrayList<Ingrédient> Recette;
 
     public Pizza(String name){
         this.name = name;
