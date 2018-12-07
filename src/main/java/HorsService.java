@@ -3,5 +3,8 @@ public class HorsService extends State {
         super(pizzeria);
     }
 
-    public int test(){return 0;}
+    @Override
+    public String createNewPizza() {
+        return "Plus d'ingrédients disponibles";
+    }
 }

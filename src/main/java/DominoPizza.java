@@ -23,4 +23,8 @@ public class DominoPizza implements Pizzeria{
         }
         return Singleton;
     }
+
+    public String createNewPizza(){
+        return state.createNewPizza();
+    }
 }
