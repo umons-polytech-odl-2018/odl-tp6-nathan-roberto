@@ -1,4 +1,4 @@
-public class Ingrédient implements nourriture{
+public abstract class Ingrédient implements nourriture{
     protected float price;
     protected String name;
 
