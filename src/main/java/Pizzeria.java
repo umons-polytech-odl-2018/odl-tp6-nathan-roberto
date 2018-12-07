@@ -1,1 +1,3 @@
-public interface Pizzeria {}
+public interface Pizzeria {
+    Pizzeria createPizzeria();
+}
