@@ -3,6 +3,9 @@ public class EnService extends State{
         super(pizzeria);
     }
 
-    public int test(){return 0;}
+    @Override
+    public String createNewPizza() {
+        return "";
+    }
 
 }

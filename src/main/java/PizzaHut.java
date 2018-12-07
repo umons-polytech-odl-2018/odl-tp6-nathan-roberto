@@ -22,5 +22,9 @@ public class PizzaHut implements Pizzeria{
             }
             return Singleton;
         }
+
+    public String createNewPizza(){
+        return state.createNewPizza();
+    }
 }
 

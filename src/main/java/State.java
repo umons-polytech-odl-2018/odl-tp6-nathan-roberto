@@ -5,5 +5,5 @@ public abstract class State {
         this.pizzeria = pizzeria;
     }
 
-    public abstract int test();
+    public abstract String createNewPizza();
 }
