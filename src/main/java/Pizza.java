@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 
 public class Pizza implements nourriture {
-    protected float price;
-    protected String name;
-    protected ArrayList<Ingrédient> Recette = new ArrayList<>();
+    private float price;
+    private String name;
+    private ArrayList<Ingrédient> Recette;
 
     public Pizza(String name){
         this.name = name;
@@ -27,5 +27,10 @@ public class Pizza implements nourriture {
 
     @Override
     public String getName(){return name;}
+
+    @Override
+    public String toString(){
+        return ("Nom Pizza :" + name + "\n Prix:" + price);
+    }
 
 }
